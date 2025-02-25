@@ -67,7 +67,6 @@ function SearchPage() {
             </div>
           )}
           
-          {/* Auto-suggestions */}
           {showSuggestions && suggestions.length > 0 && (
             <div className="absolute z-10 w-full mt-2 bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700">
               {suggestions.map((suggestion) => (
@@ -90,8 +89,6 @@ function SearchPage() {
             </div>
           )}
         </form>
-
-        {/* Search Results */}
         {searchTerm && !showSuggestions && suggestions.length > 0 && (
           <div className="mt-8">
             <h2 className="mb-4 text-xl font-semibold text-gray-900 dark:text-white">
@@ -122,7 +119,6 @@ function SearchPage() {
           </div>
         )}
 
-        {/* No Results */}
         {searchTerm && !showSuggestions && suggestions.length === 0 && (
           <div className="mt-8 text-center">
             <p className="text-gray-600 dark:text-gray-300">

@@ -1,10 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 @import 'tailwindcss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
-
-@theme {
-  --color-default-black: #000000;
-}
 
 
 .roboto {
@@ -16,15 +11,15 @@
 
 
 :root {
-  --foreground-rgb: 31, 41, 55;  /* gray-800 for better readability */
-  --background-start-rgb: 249, 250, 251;  /* gray-50 */
-  --background-end-rgb: 243, 244, 246;  /* gray-100 */
+  --foreground-rgb: 31, 41, 55;  
+  --background-start-rgb: 249, 250, 251;  
+  --background-end-rgb: 243, 244, 246; 
 }
 
 .dark {
-  --foreground-rgb: 229, 231, 235;  /* gray-200 */
-  --background-start-rgb: 17, 24, 39;  /* gray-900 */
-  --background-end-rgb: 31, 41, 55;  /* gray-800 */
+  --foreground-rgb: 229, 231, 235;  
+  --background-start-rgb: 17, 24, 39;  
+  --background-end-rgb: 31, 41, 55; 
 }
 
 body {
@@ -36,7 +31,6 @@ body {
   );
   font-family: 'Roboto Flex', sans-serif;
   min-height: 100vh;
-  /* Smooth transitions for dark mode */
   transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
 }
 
@@ -52,8 +46,6 @@ body {
     text-wrap: balance;
   }
 }
-
-/* Custom gradient backgrounds */
 .bg-gradient-primary {
   background: linear-gradient(135deg, #3b82f6 0%, #4f46e5 100%);
 }

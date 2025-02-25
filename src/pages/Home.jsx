@@ -1,7 +1,6 @@
-import { Link } from 'react-router-dom';
+import {  NavLink } from 'react-router-dom';
 
 function Home() {
-  // List of features
   const features = [
     {
       title: 'Real-time Data',
@@ -22,46 +21,43 @@ function Home() {
 
   return (
     <div>
-      {/* Hero Section */}
-      <div className="text-center py-10">
-        <h1 className="text-4xl font-bold text-gray-900 dark:text-black mb-4">
+      <div className="py-10 text-center">
+        <h1 className="mb-4 text-4xl font-bold text-gray-900 dark:text-black">
           Welcome to My App
         </h1>
-        <p className="text-gray-600 dark:text-black max-w-2xl mx-auto mb-8">
+        <p className="max-w-2xl mx-auto mb-8 text-gray-600 dark:text-black">
           A simple and modern web application built with React and Tailwind CSS.
           Check out our features and try them out!
         </p>
         
-        {/* Buttons */}
         <div className="flex justify-center gap-4">
-          <Link
+          <NavLink
             to="/data"
-            className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700"
+            className="px-6 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700"
           >
             View Data
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             to="/search"
-            className="bg-gray-200 text-gray-800 px-6 py-2 rounded-md hover:bg-gray-300"
+            className="px-6 py-2 text-gray-800 bg-gray-200 rounded-md hover:bg-gray-300"
           >
             Search
-          </Link>
+          </NavLink>
         </div>
       </div>
 
-      {/* Features Section */}
       <div className="py-10 bg-white dark:bg-gray-800">
-        <h2 className="text-2xl font-bold text-center mb-8 text-gray-900 dark:text-white">
+        <h2 className="mb-8 text-2xl font-bold text-center text-gray-900 dark:text-white">
           Features
         </h2>
-        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto px-4">
+        <div className="grid max-w-6xl gap-6 px-4 mx-auto md:grid-cols-3">
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="bg-gray-100 dark:bg-gray-700 p-6 rounded-lg text-center"
+              className="p-6 text-center bg-gray-100 rounded-lg dark:bg-gray-700"
             >
-              <div className="text-4xl mb-4">{feature.icon}</div>
-              <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">
+              <div className="mb-4 text-4xl">{feature.icon}</div>
+              <h3 className="mb-2 text-xl font-bold text-gray-900 dark:text-white">
                 {feature.title}
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
@@ -72,9 +68,8 @@ function Home() {
         </div>
       </div>
 
-      {/* Stats Section */}
-      <div className="bg-blue-600 text-white py-10">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto px-4 text-center">
+      <div className="py-10 text-white bg-blue-600">
+        <div className="grid max-w-6xl grid-cols-2 gap-4 px-4 mx-auto text-center md:grid-cols-4">
           <div>
             <div className="text-3xl font-bold">1000+</div>
             <div>Users</div>
