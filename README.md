@@ -41,25 +41,6 @@ A beautiful and feature-rich web application built with React, Tailwind CSS, and
 - HeroIcons for beautiful icons
 - Mobile-first responsive design
 
-## 🛠️ Installation
-
-1. Clone the repository:
-\`\`\`bash
-git clone https://github.com/yourusername/modern-web-app.git
-cd modern-web-app
-\`\`\`
-
-2. Install dependencies:
-\`\`\`bash
-npm install
-\`\`\`
-
-3. Start the development server:
-\`\`\`bash
-npm run dev
-\`\`\`
-
-The application will be available at `http://localhost:5173`
 
 ## 🏗️ Project Structure
 
@@ -144,8 +125,3 @@ The application is fully responsive with breakpoints:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
-## 📫 Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-
-Project Link: [https://github.com/yourusername/modern-web-app](https://github.com/yourusername/modern-web-app)
