@@ -152,6 +152,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📫 Contact
 
-Akinfenwa Taiwo Christopher 
+Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
 
 Project Link: [https://github.com/yourusername/modern-web-app](https://github.com/yourusername/modern-web-app)
