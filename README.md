@@ -149,15 +149,9 @@ The application is fully responsive with breakpoints:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- React team for the amazing framework
-- Tailwind CSS team for the utility-first CSS framework
-- HeroIcons for beautiful icons
-- JSONPlaceholder for the fake API
 
 ## 📫 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
+Akinfenwa Taiwo Christopher 
 
 Project Link: [https://github.com/yourusername/modern-web-app](https://github.com/yourusername/modern-web-app)
