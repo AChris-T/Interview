@@ -2,7 +2,7 @@
 
 A beautiful and feature-rich web application built with React, Tailwind CSS, and modern web technologies. This application demonstrates best practices in modern web development with a focus on user experience, performance, and accessibility.
 
-![Modern Web App](screenshot.png)
+![Modern Web App](/src/assets/homeImage.png)
 
 ## ✨ Features
 
